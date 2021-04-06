@@ -3,6 +3,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     background-color: rgb(114, 135, 153);
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
