@@ -18,13 +18,11 @@ class LoginRoute extends Component {
 
   render() {
     return (
-      <section>
+      <section className = 'Login_section'>
         <h2>Login</h2>
-        <div className = 'LoginForm'>
         <LoginForm
           onLoginSuccess={this.handleLoginSuccess}
         />
-        </div>
       </section>
     );
   }
