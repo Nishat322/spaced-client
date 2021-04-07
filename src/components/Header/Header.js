@@ -31,7 +31,7 @@ class Header extends Component {
   renderLoginLink() {
     return (
       <nav className = 'Header_nav'>
-        <Link to='/login'>Login</Link> {' '} {'/'} {' '}
+        <Link to='/login'>Login</Link>
         <Link to='/register'>Sign up</Link>
       </nav>
     )

@@ -1,4 +1,4 @@
-.Dashboard {
+.LearningRoute {
     color: #3c3c3c;
     font-size: 120%;
     min-height: 84vh;
@@ -11,27 +11,28 @@
     font-weight: bold;
 }
 
-.Words_list-item {
+.NextWord_next-word {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    list-style: circle; 
+    color: black;
+    margin-bottom: 10px;
+    font-size: 35px;
 }
 
-.Words_name {
-    text-decoration: underline;
+.NextWord_scoreboard {
+    margin-top: 15px;
+    -webkit-box-shadow: 3px 2px 15px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 2px 15px 1px rgba(0, 0, 0, 0.2);
+    padding: 15px;
 }
 
-.Dashboard_h {
-    margin-bottom: 0px;
-}
+.NextWord_header {
+    font-size: 40px;
+}   
 
-.Dashboard_list {
-    margin-top: 0px;
-}
-
-.Dashboard_button {
+.NextWord_button {
     min-width: 30%;
-    margin: 8px 10px;
-    padding: 10px 10px;
+    margin: 8px 0px;
+    padding: 8px 0px;
     border: none;
     border-radius: 5px;
     -webkit-box-shadow: 3px 2px 15px 1px rgba(0, 0, 0, 0.2);

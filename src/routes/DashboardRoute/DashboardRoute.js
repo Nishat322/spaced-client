@@ -38,21 +38,23 @@ class DashboardRoute extends Component {
   }
 
   render() {
-    console.log(this.context)
     return (
-      <section className = 'Dashboard'>
-        <h2> Let's Practice {this.context.language.name} </h2>
-        <Link to="/learn">
-          <button className="start__practicing">Start practicing</button>
+      <section className='Dashboard'>
+        <h2>
+          Let's practice {this.context.language.name}!
+        </h2>
+        <Link to='/learn'>
+          <button className='Dashboard_button'>Start practicing</button>
         </Link>
-        <p> Total Correct Answers: {this.context.language.total_score} </p>
-        <h3> Words To Practice: </h3>
-          <ul> {this.renderWords()} </ul>
+        <p>
+          Total correct answers: {this.context.language.total_score}
+        </p>
+        <h3 className='Dashboard_h'>Words to practice</h3>
+        <ul className='Dashboard_list'>{this.renderWords()}</ul>
       </section>
     );
   }
 }
 
 export default DashboardRoute
-
 
